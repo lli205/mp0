@@ -1,1 +1,36 @@
 /* Your CSS here. */
+body {
+	background-color: white;
+	font-family: Arial, sans-serif;
+}
+  
+.card {
+	background-color: rgb(208, 153, 210);
+	color: white;
+	width: 600px;
+	margin: 50px auto;
+	text-align: center;
+	padding: 20px;
+}
+
+.card img {
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+}
+
+.card a {
+	color: #0d3846;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.card a:hover {
+	text-decoration: underline;
+}
+
+.card p {
+	margin-top: 15px;
+	line-height: 1.5;
+	text-align: left;
+}
